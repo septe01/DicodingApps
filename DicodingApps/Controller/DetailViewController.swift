@@ -9,10 +9,22 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    // IBOutlets menghubungkan view dengan controller
+    @IBOutlet weak var titleDetail: UILabel!
+    @IBOutlet weak var imageDetail: UIImageView!
+    @IBOutlet weak var descDetail: UILabel!
+    
+    // Digunakan untuk menampung data sementara
+    var detail: (title:String?, desc:String?,image:UIImage?)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        titleDetail.text = detail.title
+        descDetail.text = detail.desc
+        imageDetail.image = detail.image
+        
     }
     
 

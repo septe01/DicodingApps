@@ -111,6 +111,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GIY-dG-v3g"/>
+                    <connections>
+                        <outlet property="androidAcademy" destination="o2o-wT-GsB" id="9X6-B9-Bnf"/>
+                        <outlet property="arvrAcademy" destination="izF-eE-Yut" id="e3S-SW-TLW"/>
+                        <outlet property="cloudAcademy" destination="nay-YY-d0K" id="ejT-XR-CPG"/>
+                        <outlet property="unityAcademy" destination="Jsv-tb-wFS" id="K20-pZ-VQX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krf-o7-UGV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -237,7 +243,7 @@
         <!--Challenges View Controller-->
         <scene sceneID="LO0-4J-Wq9">
             <objects>
-                <viewController id="Lu5-q1-sK3" customClass="ChallengesViewController" customModule="DicodingApps" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChallengesViewControllerScene" id="Lu5-q1-sK3" customClass="ChallengesViewController" customModule="DicodingApps" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V90-wG-Yqq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -328,6 +334,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ujy-0X-Exc"/>
+                    <connections>
+                        <outlet property="arChallenge" destination="ial-FE-TRP" id="yYI-VG-EMv"/>
+                        <outlet property="educationChallenge" destination="wYb-dY-uMt" id="Hnv-RV-9n6"/>
+                        <outlet property="flutterChallenge" destination="AEr-hF-mFH" id="J03-vT-lVo"/>
+                        <outlet property="guestBookChallenge" destination="SBZ-6J-eay" id="ASr-po-WqI"/>
+                        <outlet property="webChallenge" destination="l2u-44-aju" id="SNm-Ah-8g3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGn-Sp-74m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -470,6 +483,11 @@
                             <constraint firstItem="M7o-vo-M6C" firstAttribute="trailing" secondItem="zot-UF-wvl" secondAttribute="trailing" constant="8" id="tGq-xd-JB9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descDetail" destination="zot-UF-wvl" id="2Z6-SQ-2Jf"/>
+                        <outlet property="imageDetail" destination="rSj-wa-BJ5" id="SqP-NN-kpe"/>
+                        <outlet property="titleDetail" destination="dOB-FV-zkh" id="FL8-Kj-3L0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUF-xd-1yw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
